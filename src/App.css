@@ -1,0 +1,54 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  color:#494949;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #839788;
+  margin-left: -.5em;
+  color: white;
+  text-align:center;
+  padding: .1em;
+  top: 0;
+  width: 105%;
+  position:sticky;
+}
+
+h2{
+  margin-left: .5em;
+}
+
+.jump-to a{
+  color: white;
+
+}
+
+.jump-to{
+  color: white;
+  text-align: center;
+  padding: .2em;
+  top: 0;
+}
+
+.overview{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  background-color: #ede4dc;
+  text-align: center;
+  padding: 1em;
+  bottom: 0;
+  width: 120%;
+}
+
+footer a{
+  color:#494949;
+  font-weight: bold;
+}
+
