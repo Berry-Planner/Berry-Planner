@@ -1,151 +1,41 @@
 // src/App.js
 import React from 'react';
-import ProductList from './components/ProductList';
+import AssignmentTracker from './sections/AssignmentTrackers/Planner';
+import DailyPlanner from './sections/DailyPlanners/Planner';
+import MonthlyCalendar from './sections/MonthlyCalendars/Planner';
+import WeeklyPlanner from './sections/WeeklyPlanners/Planner';
+import WeeklyStudyPlanner from './sections/WeeklyStudyPlanners/Planner';
+
 import './App.css';
 
 
-const personalProd = [
-  {
-    id: 1,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 2,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 3,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 4,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  }
-];
-
-const schoolProd = [
-  {
-    id: 1,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 2,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 3,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 4,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 5,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  }
-];
-
-const calProd = [
-  {
-    id: 1,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 2,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 3,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  },
-  {
-    id: 4,
-    name: 'Product 1',
-    description: 'This is the description for Product 1.',
-    image: 'logo.svg',
-  }
-];
 
 function Header() {
   return (
     <header>
       <h1>Berry Planner</h1>
-      <div className='overview'>
+      {/* <div className='overview'>
         <div className='jump-to'>
-          <a href="#cal">Calendars  |</a>
+          <a href="#monthly-calendar">Monthly Calendars |  </a>
+          <a href="#weekly-planner">Weekly Planners  |  </a>
+          <a href="#weekly-study-planner">Weekly Study Planners  |  </a>
+          <a href="#daily-planner">Daily Planners  |  </a>
+          <a href="#assignment-tracker">Assignment Trackers</a>
         </div>
-        <div className='jump-to'>
-          <a href="#school">School Planners  |</a>
-        </div>
-        <div className='jump-to'>
-          <a href="#per">Personal Planners</a>
-        </div>
-      </div>
+      </div> */}
     </header>
   );
 }
 
 
-function Calendars(){
-  return(
-    <section id = "cal">
-      <h2>Calendars</h2>
-      <ProductList products={calProd} />
-    </section>
-  )
-}
-
-function School(){
-  return(
-    <section id = "school">
-      <h2>School Planners</h2>
-      <ProductList products={schoolProd} />
-    </section>
-  )
-}
-
-
-function Personal(){
-  return(
-    <section id = "per">
-      <h2>Personal Planners</h2>
-      <ProductList products={personalProd} />
-    </section>
-  )
-}
-
 function ProductDisplay(){
   return(
     <section id = "display">
-      <Calendars/>
-      <School/>
-      <Personal/>
-      
+      <MonthlyCalendar/>
+      <WeeklyPlanner/>
+      <WeeklyStudyPlanner/>
+      <DailyPlanner/>
+      <AssignmentTracker/>
     </section>
   )
 }
