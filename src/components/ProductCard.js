@@ -6,9 +6,8 @@ const ProductCard = ({ product }) => {
   
   return (
     <div className="product-card">
-
- 
       <img src={product.image} alt={product.name} />
+    
       <h3>{product.name}</h3>
       <p>{product.description}</p>
       <a href="https://www.altcademy.com/blog/how-to-link-a-button-to-another-page-in-html/" target="_blank">

@@ -1,17 +1,21 @@
 /* src/components/ProductCard.css */
+/* src/components/ProductCard.css */
 .product-card {
-    padding: 2em;
-    margin: 1em;
-    text-align: center;
-  }
-  
-  .product-card img {
-    max-width: 100%;
-    height: auto;
-  }
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-left: 4em;
+  margin-bottom: 1em;
+  text-align: center;
+  max-width: 17%; 
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
 
   button{
     background-color: #B1A99E;
     margin: .2em;
   }
-  
+ 
