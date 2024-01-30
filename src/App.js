@@ -31,10 +31,10 @@ function Header() {
 function ProductDisplay(){
   return(
     <section id = "display">
-      <MonthlyCalendar/>
+      {/* <MonthlyCalendar/>
       <WeeklyPlanner/>
       <WeeklyStudyPlanner/>
-      <DailyPlanner/>
+      <DailyPlanner/> */}
       <AssignmentTracker/>
     </section>
   )

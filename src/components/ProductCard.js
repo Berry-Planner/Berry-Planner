@@ -10,11 +10,12 @@ const ProductCard = ({ product }) => {
     
       <h3>{product.name}</h3>
       <p>{product.description}</p>
-      <a href="https://www.altcademy.com/blog/how-to-link-a-button-to-another-page-in-html/" target="_blank">
+      
+      <a href={product.canva} target="_blank">
           <button>Edit On Canva</button>
       </a>
       <br/>
-      <a href="https://www.youtube.com/" target="_blank">
+      <a href= {product.download} download = {product.name}>
           <button>Download</button>
       </a>
     </div>
