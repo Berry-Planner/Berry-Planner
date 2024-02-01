@@ -33,9 +33,9 @@ function ProductDisplay(){
     <section id = "display">
       {/* <MonthlyCalendar/>
       <WeeklyPlanner/>
-      <WeeklyStudyPlanner/>
-      <DailyPlanner/> */}
-      <AssignmentTracker/>
+      <WeeklyStudyPlanner/> */}
+       <AssignmentTracker/>
+      <DailyPlanner/>
     </section>
   )
 }

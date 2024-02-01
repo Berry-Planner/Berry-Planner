@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
       <h3>{product.name}</h3>
       <p>{product.description}</p>
       
-      <a href={product.canva} target="_blank">
+      <a href={product.canva} target="_blank" rel="noreferrer">
           <button>Edit On Canva</button>
       </a>
       <br/>

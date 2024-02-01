@@ -13,7 +13,7 @@ import BlueCanva from "./pdfs/Blue Assignment Tracker.pdf";
 const planners = [
     {
       id: 1,
-      name: 'Berry Daily Assignment Tracker',
+      name: 'Berry Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Berry,
       canva: "youtube.com",
@@ -21,7 +21,7 @@ const planners = [
     },
     {
       id: 2,
-      name: 'Neutral Daily Assignment Tracker',
+      name: 'Neutral Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Neutral,
       canva: "youtube.com",
@@ -29,7 +29,7 @@ const planners = [
     },
     {
       id: 3,
-      name: 'Purple Daily Assignment Tracker',
+      name: 'Purple Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Purple,
       canva: "youtube.com",
@@ -37,7 +37,7 @@ const planners = [
     },
     {
       id: 4,
-      name: 'Green Daily Assignment Tracker',
+      name: 'Green Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Green,
       canva: "youtube.com",
@@ -45,7 +45,7 @@ const planners = [
     },
     {
       id: 5,
-      name: 'Blue Daily Assignment Tracker',
+      name: 'Blue Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Blue,
       canva: "youtube.com",

@@ -1,17 +1,18 @@
 /* src/components/ProductCard.css */
 /* src/components/ProductCard.css */
 .product-card {
-  border: 1px solid #ddd;
-  padding: 16px;
-  margin-left: 4em;
-  margin-bottom: 1em;
+  border: 1px solid #B1A99E;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
   text-align: center;
   max-width: 17%; 
 }
 
 .product-card img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  border: 5px solid #B1A99E;
 }
 
   button{
