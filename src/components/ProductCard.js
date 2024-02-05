@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
       <img src={product.image} alt={product.name} />
     
       <h3>{product.name}</h3>
-      <p>{product.description}</p>
+      {/* <p>{product.description}</p> */}
       
       <a href={product.canva} target="_blank" rel="noreferrer">
           <button>Edit On Canva</button>

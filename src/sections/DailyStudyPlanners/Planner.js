@@ -4,16 +4,16 @@ import Neutral from "./images/Neutral.png";
 import Purple from "./images/Purple.png";
 import Green from "./images/Green.png";
 import Blue from "./images/Blue.png";
-import BerryCanva from "./pdfs/Berry Daily.pdf";
-import NeutralCanva from "./pdfs/Neutral Daily.pdf";
-import PurpleCanva from "./pdfs/Purple Daily.pdf";
-import GreenCanva from "./pdfs/Green Daily.pdf";
-import BlueCanva from "./pdfs/Blue Daily.pdf";
+import BerryCanva from "./pdfs/Berry Daily Study.pdf";
+import NeutralCanva from "./pdfs/Neutral Daily Study.pdf";
+import PurpleCanva from "./pdfs/Purple Daily Study.pdf";
+import GreenCanva from "./pdfs/Green Daily Study.pdf";
+import BlueCanva from "./pdfs/Blue Daily Study.pdf";
 
 const planners = [
     {
       id: 1,
-      name: 'Berry Daily Planner',
+      name: 'Berry Daily Study Planner',
       description: 'This is the description for Product 1.',
       image: Berry,
       canva: "youtube.com",
@@ -21,7 +21,7 @@ const planners = [
     },
     {
       id: 2,
-      name: 'Neutral Daily Planner',
+      name: 'Neutral Daily Study Planner',
       description: 'This is the description for Product 1.',
       image: Neutral,
       canva: "youtube.com",
@@ -29,7 +29,7 @@ const planners = [
     },
     {
       id: 3,
-      name: 'Purple Daily Planner',
+      name: 'Purple Daily Study Planner',
       description: 'This is the description for Product 1.',
       image: Purple,
       canva: "youtube.com",
@@ -37,7 +37,7 @@ const planners = [
     },
     {
       id: 4,
-      name: 'Green Daily Planner',
+      name: 'Green Daily Study Planner',
       description: 'This is the description for Product 1.',
       image: Green,
       canva: "youtube.com",
@@ -45,7 +45,7 @@ const planners = [
     },
     {
       id: 5,
-      name: 'Blue Daily Planner',
+      name: 'Blue Daily Study Planner',
       description: 'This is the description for Product 1.',
       image: Blue,
       canva: "youtube.com",
@@ -53,13 +53,13 @@ const planners = [
     }
   ];
 
-  function AssignemntTrackers(){
+  function DailyStudyPlanners(){
     return(
       <section id = "daily-study-planners">
-        <h2>Daily Planners</h2>
+        <h2>DailyStudy Planners</h2>
         <ProductList products={planners} />
       </section>
     )
   }
   
-  export default AssignemntTrackers;
+  export default DailyStudyPlanners;

@@ -5,7 +5,7 @@ import DailyPlanner from './sections/DailyPlanners/Planner';
 import MonthlyCalendar from './sections/MonthlyCalendars/Planner';
 import WeeklyPlanner from './sections/WeeklyPlanners/Planner';
 import WeeklyStudyPlanner from './sections/WeeklyStudyPlanners/Planner';
-
+import DailyStudyPlanners from './sections/DailyStudyPlanners/Planner';
 import './App.css';
 
 
@@ -31,9 +31,10 @@ function Header() {
 function ProductDisplay(){
   return(
     <section id = "display">
-      {/* <MonthlyCalendar/>
+      {/* <MonthlyCalendar/> */}
+      <DailyStudyPlanners/>
       <WeeklyPlanner/>
-      <WeeklyStudyPlanner/> */}
+      <WeeklyStudyPlanner/> 
        <AssignmentTracker/>
       <DailyPlanner/>
     </section>
