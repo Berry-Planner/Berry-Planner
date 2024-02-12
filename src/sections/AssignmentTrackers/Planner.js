@@ -16,7 +16,7 @@ const planners = [
       name: 'Berry Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Berry,
-      canva: "youtube.com",
+      canva: "https://www.canva.com/design/DAF6oEafCrE/RveY-iAuxj9kFwt0iQTlfA/view?utm_content=DAF6oEafCrE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
       download: BerryCanva,
     },
     {
@@ -24,7 +24,7 @@ const planners = [
       name: 'Neutral Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Neutral,
-      canva: "youtube.com",
+      canva: "https://www.canva.com/design/DAF1YLJOfYc/ubZTPdqEEnjwLoNf227dZQ/view?utm_content=DAF1YLJOfYc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
       download: NeutralCanva,
     },
     {
@@ -32,7 +32,7 @@ const planners = [
       name: 'Purple Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Purple,
-      canva: "youtube.com",
+      canva: "https://www.canva.com/design/DAF6oGx0FSs/AOO94VKQsKMdtMVI1yLQHA/view?utm_content=DAF6oGx0FSs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
       download: PurpleCanva,
     },
     {
@@ -40,7 +40,7 @@ const planners = [
       name: 'Green Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Green,
-      canva: "youtube.com",
+      canva: "https://www.canva.com/design/DAF6oHPDEY8/WANhDwvRjypRO3rhbDByqQ/view?utm_content=DAF6oHPDEY8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
       download: GreenCanva,
     },
     {
@@ -48,7 +48,7 @@ const planners = [
       name: 'Blue Assignment Tracker',
       description: 'This is the description for Product 1.',
       image: Blue,
-      canva: "youtube.com",
+      canva: "https://www.canva.com/design/DAF6Wed3dm8/P91L4W343vW5dbcGjmDIWA/view?utm_content=DAF6Wed3dm8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
       download: BlueCanva,
     }
   ];

@@ -2,7 +2,7 @@
 import React from 'react';
 import AssignmentTracker from './sections/AssignmentTrackers/Planner';
 import DailyPlanner from './sections/DailyPlanners/Planner';
-import MonthlyCalendar from './sections/MonthlyCalendars/Planner';
+// import YearlyCalendar from './sections/YearlyCalendar/Planner';
 import WeeklyPlanner from './sections/WeeklyPlanners/Planner';
 import WeeklyStudyPlanner from './sections/WeeklyStudyPlanners/Planner';
 import DailyStudyPlanners from './sections/DailyStudyPlanners/Planner';
@@ -31,7 +31,6 @@ function Header() {
 function ProductDisplay(){
   return(
     <section id = "display">
-      {/* <MonthlyCalendar/> */}
       <DailyStudyPlanners/>
       <WeeklyPlanner/>
       <WeeklyStudyPlanner/> 

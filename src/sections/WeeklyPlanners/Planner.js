@@ -16,7 +16,7 @@ const planners = [
     name: 'Berry Weekly Planner',
     description: 'This is the description for Product 1.',
     image: Berry,
-    canva: "https://www.canva.com/design/DAF7BmScidU/PVWWq0H6S4hZj_UmfLRyAw/view?utm_content=DAF7BmScidU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+    canva: "https://www.canva.com/design/DAF6oeSBxkA/whp2KwukT3tcQbarjI7KZA/view?utm_content=DAF6oeSBxkA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: BerryCanva,
   },
   {
@@ -24,7 +24,7 @@ const planners = [
     name: 'Neutral Weekly Planner',
     description: 'This is the description for Product 1.',
     image: Neutral,
-    canva: "https://www.canva.com/design/DAF7BmkO5Jo/7Zb3DSXbRB-ySt4IyLynKA/view?utm_content=DAF7BmkO5Jo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+    canva: "https://www.canva.com/design/DAF6KOCfNaQ/nrSueE5M3_mHh1-hoWGgmQ/view?utm_content=DAF6KOCfNaQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: NeutralCanva,
   },
   {
@@ -32,7 +32,7 @@ const planners = [
     name: 'Purple Weekly Planner',
     description: 'This is the description for Product 1.',
     image: Purple,
-    canva: "https://www.canva.com/design/DAF7BnlxGXg/2BgCfEi5ZUH8_15ZodyXjw/view?utm_content=DAF7BnlxGXg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+    canva: "https://www.canva.com/design/DAF6oepZ_50/RrAlVsQcPfVbtmqorEfG9A/view?utm_content=DAF6oepZ_50&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: PurpleCanva,
   },
   {
@@ -40,7 +40,7 @@ const planners = [
     name: 'Green Weekly Planner',
     description: 'This is the description for Product 1.',
     image: Green,
-    canva: "https://www.canva.com/design/DAF7BvTFBz4/uzEiHvVekB1kQDCcbJqgdQ/view?utm_content=DAF7BvTFBz4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+    canva: "https://www.canva.com/design/DAF6WD9rDco/IHjIfjyU9apTnSUEf9db2Q/view?utm_content=DAF6WD9rDco&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: GreenCanva,
   },
   {
