@@ -56,7 +56,7 @@ const planners = [
   function DailyStudyPlanners(){
     return(
       <section id = "daily-study-planners">
-        <h2>DailyStudy Planners</h2>
+        <h2>Daily Study Planners</h2>
         <ProductList products={planners} />
       </section>
     )
