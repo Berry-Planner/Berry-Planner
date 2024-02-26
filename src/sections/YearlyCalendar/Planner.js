@@ -1,14 +1,14 @@
 import ProductList from '../../components/ProductList';
-import Berry from "./images/Berry.png";
-import Neutral from "./images/Neutral.png";
-import Purple from "./images/Purple.png";
-import Green from "./images/Green.png";
-import Blue from "./images/Blue.png";
-import BerryCanva from "./pdfs/Berry Yearly Calendar.pdf";
-import NeutralCanva from "./pdfs/Neutral Yearly Calendar.pdf";
-import PurpleCanva from "./pdfs/Purple Yearly Calendar.pdf";
-import GreenCanva from "./pdfs/Green Yearly Calendar.pdf";
-import BlueCanva from "./pdfs/Blue Yearly Calendar.pdf";
+import Berry from "./images/Berry.gif";
+import Neutral from "./images/Neutral.gif";
+import Purple from "./images/Purple.gif";
+import Green from "./images/Green.gif";
+import Blue from "./images/Blue.gif";
+import BerryCanva from "./pdfs/Berry Yearly.pdf";
+import NeutralCanva from "./pdfs/Neutral Yearly.pdf";
+import PurpleCanva from "./pdfs/Purple Yearly.pdf";
+import GreenCanva from "./pdfs/Green Yearly.pdf";
+import BlueCanva from "./pdfs/Blue Yearly.pdf";
 
 const planners = [
   {
@@ -16,7 +16,7 @@ const planners = [
     name: 'Berry Yearly Calendar',
     description: 'This is the description for Product 1.',
     image: Berry,
-    canva: "youtube.com",
+    canva: "https://www.canva.com/design/DAF8Qkl8H68/H_PIGK1mNz8E81ASlZ3tQQ/view?utm_content=DAF8Qkl8H68&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: BerryCanva,
   },
   {
@@ -24,7 +24,7 @@ const planners = [
     name: 'Neutral Yearly Calendar',
     description: 'This is the description for Product 1.',
     image: Neutral,
-    canva: "youtube.com",
+    canva: "https://www.canva.com/design/DAF8Qt5tK1w/wWhA4s44kSbPQ-PKKwmkUg/view?utm_content=DAF8Qt5tK1w&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: NeutralCanva,
   },
   {
@@ -32,7 +32,7 @@ const planners = [
     name: 'Purple Yearly Calendar',
     description: 'This is the description for Product 1.',
     image: Purple,
-    canva: "youtube.com",
+    canva: "https://www.canva.com/design/DAF8QmlXKU8/s-n2BYiVRjukC3hTGH-RLg/view?utm_content=DAF8QmlXKU8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: PurpleCanva,
   },
   {
@@ -40,7 +40,7 @@ const planners = [
     name: 'Green Yearly Calendar',
     description: 'This is the description for Product 1.',
     image: Green,
-    canva: "youtube.com",
+    canva: "https://www.canva.com/design/DAF8QqDnsdA/qfwOTd3LvDFY-iBuAoCHkw/view?utm_content=DAF8QqDnsdA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: GreenCanva,
   },
   {
@@ -48,7 +48,7 @@ const planners = [
     name: 'Blue Yearly Calendar',
     description: 'This is the description for Product 1.',
     image: Blue,
-    canva: "youtube.com",
+    canva: "https://www.canva.com/design/DAF7OQKIMMI/2Do78zCBGzFO5Jx5TshbMg/view?utm_content=DAF7OQKIMMI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: BlueCanva,
   }
 ];
@@ -61,4 +61,4 @@ const planners = [
       </section>
     )
   }
-  export default WeeklyStudyPlanner;
+  export default YearlyCalendar;
