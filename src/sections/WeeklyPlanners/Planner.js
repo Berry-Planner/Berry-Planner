@@ -48,7 +48,7 @@ const planners = [
     name: 'Blue Weekly Planner',
     description: 'This is the description for Product 1.',
     image: Blue,
-    canva: "https://www.canva.com/design/DAF66Vt3ngE/Yp-8y3KX3Nr2OLyXotIpFg/view?utm_content=DAF66Vt3ngE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+    canva: "https://www.canva.com/design/DAF6WCXttWQ/3kHReF3NP47csZcly3x9ww/view?utm_content=DAF6WCXttWQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
     download: BlueCanva,
   }
 ];
