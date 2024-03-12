@@ -6,23 +6,24 @@ import YearlyCalendar from './sections/YearlyCalendar/Planner';
 import WeeklyPlanner from './sections/WeeklyPlanners/Planner';
 import WeeklyStudyPlanner from './sections/WeeklyStudyPlanners/Planner';
 import DailyStudyPlanners from './sections/DailyStudyPlanners/Planner';
+import PersonalToDo from './sections/PersonalToDo/Planner';
+import EveryDayPlanner from './sections/365DayPlanner/Planner'
 import './App.css';
 
 
+const weeklyLinks = {
+  title: "Weekly",
+  link1: "#weekly-study-planner",
+  link2: "#weekly-planner",
+  option1: "Planner",
+  option2: "Study Tracker"
+}
 
 function Header() {
   return (
     <header>
       <h1>Berry Planner</h1>
-      {/* <div className='overview'>
-        <div className='jump-to'>
-          <a href="#monthly-calendar">Monthly Calendars |  </a>
-          <a href="#weekly-planner">Weekly Planners  |  </a>
-          <a href="#weekly-study-planner">Weekly Study Planners  |  </a>
-          <a href="#daily-planner">Daily Planners  |  </a>
-          <a href="#assignment-tracker">Assignment Trackers</a>
-        </div>
-      </div> */}
+      {/* <DropdownMenu menu = {weeklyLinks} /> */}
     </header>
   );
 }
@@ -31,12 +32,14 @@ function Header() {
 function ProductDisplay(){
   return(
     <section id = "display">
+      <PersonalToDo/>
       <DailyStudyPlanners/>
+      <DailyPlanner/>
+      <AssignmentTracker/>
       <WeeklyPlanner/>
       <WeeklyStudyPlanner/> 
-      <AssignmentTracker/>
-      <DailyPlanner/>
       <YearlyCalendar/>
+      <EveryDayPlanner/>
     </section>
   )
 }
