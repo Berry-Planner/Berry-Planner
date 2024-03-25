@@ -8,7 +8,9 @@ import WeeklyStudyPlanner from './sections/WeeklyStudyPlanners/Planner';
 import DailyStudyPlanners from './sections/DailyStudyPlanners/Planner';
 import PersonalToDo from './sections/PersonalToDo/Planner';
 import EveryDayPlanner from './sections/365DayPlanner/Planner'
+import SchoolToDo from './sections/SchoolToDo/Planner';
 import './App.css';
+import HabitTracker from './sections/HabitTracker/Planner';
 
 
 const weeklyLinks = {
@@ -33,6 +35,8 @@ function ProductDisplay(){
   return(
     <section id = "display">
       <PersonalToDo/>
+      <SchoolToDo/>
+      <HabitTracker/>
       <DailyStudyPlanners/>
       <DailyPlanner/>
       <AssignmentTracker/>
