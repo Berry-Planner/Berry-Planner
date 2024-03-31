@@ -11,6 +11,7 @@ import EveryDayPlanner from './sections/365DayPlanner/Planner'
 import SchoolToDo from './sections/SchoolToDo/Planner';
 import './App.css';
 import HabitTracker from './sections/HabitTracker/Planner';
+import NavBar from './components/NavBar';
 
 
 const weeklyLinks = {
@@ -25,7 +26,8 @@ function Header() {
   return (
     <header>
       <h1>Berry Planner</h1>
-      {/* <DropdownMenu menu = {weeklyLinks} /> */}
+      <NavBar week={weeklyLinks} />
+      <NavBar weekly = {weeklyLinks}/>
     </header>
   );
 }
