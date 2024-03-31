@@ -55,7 +55,7 @@ const planners = [
 
   function HabitTracker(){
     return(
-      <section id = "Habit Tracker">
+      <section id = "habit-tracker">
         <h2>Habit Tracker</h2>
         <ProductList products={planners} />
       </section>

@@ -3,7 +3,19 @@
     overflow: hidden;
     background-color: #6d7e72;
     font-family: Arial;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+    position:-webkit-sticky;
+
   }
+
+  /*Make it go 50 px above*/
+  #anchor {
+    padding-top: 50px;
+    margin-top: -50px;
+}
   
   /* Links inside the navbar */
   .navbar a {

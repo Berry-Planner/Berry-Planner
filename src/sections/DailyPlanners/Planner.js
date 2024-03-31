@@ -55,7 +55,7 @@ const planners = [
 
   function AssignemntTrackers(){
     return(
-      <section id = "daily-study-planners">
+      <section id = "daily-planners">
         <h2>Daily Planners</h2>
         <ProductList products={planners} />
       </section>

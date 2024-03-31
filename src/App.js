@@ -11,27 +11,25 @@ import EveryDayPlanner from './sections/365DayPlanner/Planner'
 import SchoolToDo from './sections/SchoolToDo/Planner';
 import './App.css';
 import HabitTracker from './sections/HabitTracker/Planner';
-import NavBar from './components/NavBar';
+import WeeklyDropDown from './NavBars/WeeklyDropDown';
+import DailyDropDown from './NavBars/DailyDropDown';
+import TrackerDropDown from './NavBars/TrackerDropDown';
+import ToDoDropDown from './NavBars/ToDoDropDown';
+import YearlyDropDown from './NavBars/YearlyDropDown';
 
-
-const weeklyLinks = {
-  title: "Weekly",
-  link1: "#weekly-study-planner",
-  link2: "#weekly-planner",
-  option1: "Planner",
-  option2: "Study Tracker"
-}
 
 function Header() {
   return (
     <header>
       <h1>Berry Planner</h1>
-      <NavBar week={weeklyLinks} />
-      <NavBar weekly = {weeklyLinks}/>
+      <DailyDropDown/>
+      <WeeklyDropDown/>
+      <YearlyDropDown/>
+      <ToDoDropDown/>
+      <TrackerDropDown/>
     </header>
   );
 }
-
 
 function ProductDisplay(){
   return(
