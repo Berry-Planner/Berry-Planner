@@ -37,9 +37,9 @@ function ProductDisplay(){
       <PersonalToDo/>
       <SchoolToDo/>
       <HabitTracker/>
+      <AssignmentTracker/>
       <DailyStudyPlanners/>
       <DailyPlanner/>
-      <AssignmentTracker/>
       <WeeklyPlanner/>
       <WeeklyStudyPlanner/> 
       <YearlyCalendar/>
