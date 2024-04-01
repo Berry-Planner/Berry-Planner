@@ -11,6 +11,7 @@ const TrackerDropDown = () =>{
         <div class="dropdown-content">
           <a href="#habit-tracker">Habit Tracker</a>
           <a href="#assignment-trackers">Assignment Tracker</a>
+          <a href="#monthly-goal-tracker">Monthly Goal Tracker</a>
         </div>
       </div>
     </div>

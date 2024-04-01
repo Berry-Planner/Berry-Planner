@@ -16,6 +16,7 @@ import DailyDropDown from './NavBars/DailyDropDown';
 import TrackerDropDown from './NavBars/TrackerDropDown';
 import ToDoDropDown from './NavBars/ToDoDropDown';
 import YearlyDropDown from './NavBars/YearlyDropDown';
+import MonthlyGoalTracker from './sections/MonthlyGoalTracker/Planner';
 
 
 function Header() {
@@ -37,6 +38,7 @@ function ProductDisplay(){
       <PersonalToDo/>
       <SchoolToDo/>
       <HabitTracker/>
+      <MonthlyGoalTracker/>
       <AssignmentTracker/>
       <DailyStudyPlanners/>
       <DailyPlanner/>
