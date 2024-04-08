@@ -29,7 +29,7 @@ const planners = [
     },
     {
       id: 3,
-      name: 'Purple Habit Tracker Planner',
+      name: 'Purple Habit Tracker',
       description: 'This is the description for Product 1.',
       image: Purple,
       canva:"https://www.canva.com/design/DAF-_dJyOw8/ozihJILqmcNTm1EilWkSmw/view?utm_content=DAF-_dJyOw8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
